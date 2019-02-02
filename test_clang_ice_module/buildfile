@@ -1,0 +1,6 @@
+libs =
+#import libs += libhello%lib{hello}
+
+exe{test_clang_ice_module}: {hxx ixx txx cxx mxx}{**} $libs testscript
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"

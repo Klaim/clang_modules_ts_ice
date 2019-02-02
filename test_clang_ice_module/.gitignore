@@ -1,0 +1,5 @@
+test_clang_ice_module
+
+# Testscript output directory (can be symlink).
+#
+test-test_clang_ice_module

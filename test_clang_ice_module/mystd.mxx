@@ -1,0 +1,13 @@
+export module mystd;
+
+#include <typeinfo>
+#include <vector>
+#include <string>
+#include <variant>
+#include <iostream>
+
+export std::vector;
+export std::string;
+export std::variant;
+export std::type_info;
+export std::cout;

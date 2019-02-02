@@ -1,0 +1,7 @@
+project = test_clang_ice_module
+
+using version
+using config
+using test
+using install
+using dist
